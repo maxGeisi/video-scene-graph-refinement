@@ -1,0 +1,5 @@
+# For the analysis and figure scripts only.
+# The backbone needs the pinned stack built by cluster/env_build.sbatch.
+numpy>=1.21
+matplotlib>=3.5
+gensim>=4.0        # text_embedding_analysis.py only

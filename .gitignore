@@ -1,0 +1,29 @@
+# data, checkpoints and caches (see README, "Not included")
+data/
+ag/
+ckpt/
+checkpoints/
+cache/
+results/
+results_seed*/
+*.npz
+*.pt
+*.pth
+*.tar
+*.pkl
+
+# SLURM logs
+*.log
+slurm-*.out
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
